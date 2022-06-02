@@ -1,14 +1,15 @@
 class Character:
 
-    MUT = 0
-    KLUGHEIT = 1
-    INTUITION = 2
-    CHARISMA = 3
-    FINGERFERTIGKEIT = 4
-    GEWANDHEIT = 5
-    KONSTITUTION = 6
-    KOERPERKRAFT = 7
-    INITIATIVE = 8
+    # Dictionary keys as constants
+    MUT = "MU"
+    KLUGHEIT = "KL"
+    INTUITION = "IN"
+    CHARISMA = "CH"
+    FINGERFERTIGKEIT = "FF"
+    GEWANDHEIT = "GE"
+    KONSTITUTION = "KO"
+    KOERPERKRAFT = "KK"
+    INITIATIVE = "INI"
 
     def __init__(self):
         self._eigenschaften = {Character.MUT: 0, Character.KLUGHEIT: 0, Character.INTUITION: 0, Character.CHARISMA: 0,
